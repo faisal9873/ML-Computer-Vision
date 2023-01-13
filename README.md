@@ -1,5 +1,5 @@
-# extend AI assessment
- ML Eng assessment project
+# Computer Vision Project
+ Anomaly Detection in Wood
  
 This file serves as the readme file for Extend AI computer vision assessment. The first step in this project was to observe the given images and manually separate the cracked wood images from the uncracked ones in to two different folders. Following this, the directory of each folder is read in the python file and the unmarked folder holds a target value 0 while the marked holds target value 1.
 In order to develop the best algorithm, first, the matrices i.e., RGB representing the cracked and the uncracked images are observed in order to come up with the best CNN architecture. The supplied data was too little for training, therefore, data augmentation was used to generate 640 data points for training. The data augmentation techniques involved rotation of the pixels and addition of noise. To ensure good generalization, the data points were shared equally between both classes. 
